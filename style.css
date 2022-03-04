@@ -22,13 +22,16 @@
 }
 
 h1{
+    display: flex;
+    /* flex-direction: center; */
+    justify-content: center;
     color:red;
     font-family: 'League Gothic', sans-serif;
 }
 
 
 h5{
-    color:black;
+    color:white;
     font-family: 'League Gothic', sans-serif;
     font-size: 20px;
 }
@@ -108,13 +111,30 @@ h1{
 }
 
 .content{
+
     width:70%;
-    
     background-color: rgba(71, 231, 49, 0.7);
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
+
+.breaker{
+    display: flex;
+    flex-direction: column;
+}
+
+.breaker img{
+    align-self: center;
+}
+
+
+
+/* .more{
+    display:flex;
+    flex-direction:column;
+} */
+
 
 .content2{
     width:70%;
