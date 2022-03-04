@@ -1,0 +1,167 @@
+/* thish is a comment for my css */
+
+/* selector{
+    property:value;
+} */
+
+/* @import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap'); */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+
+
+/* font-family: 'Fuzzy Bubbles', cursive; */
+
+
+
+*{
+    
+    color:black;
+    font-family: 'Fuzzy, Bubbles', cursive;
+    
+}
+
+h1{
+    color:red;
+    font-family: 'League Gothic', sans-serif;
+}
+
+
+h5{
+    color:black;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 20px;
+}
+
+#top{
+    background-color: rgb(245, 95, 8);
+        display: flex;
+        min-height: 25vh;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 35px;
+}
+
+/* #top{
+    background-color: blueviolet;
+        display: flex;
+        min-height: 25vh;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 60px;
+} */
+h3{
+    color:purple;
+}
+
+p{
+    color:black;
+}
+
+body{
+    background-image: url('all styles goku.jpg');
+    
+}
+
+.body2{
+    background-image: url('good pic goku.jpg');
+    
+}
+
+
+
+
+.body3{
+    background-image: url('ball4.jpg');
+    
+}
+
+.body4{
+    
+    background-image: url('real\ shenron.jpg');
+    
+    
+}
+h6{
+    color:red;
+    font-family: 'Fuzzy, Bubbles', cursive;
+    font-size: 20px;
+
+}
+
+h1{
+    color:red;
+    font-family: 'Fuzzy, Bubbles', cursive;
+    font-size: 60px;
+
+}
+
+
+
+    /* #menu div id="menu" block off with divs */
+.menu{
+    background-color: grey;
+    height: 100px;
+    border: 5px solid black;
+}
+
+.content{
+    width:70%;
+    
+    background-color: rgba(71, 231, 49, 0.7);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.content2{
+    width:70%;
+    
+    background-color: rgba(71, 231, 49);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.somthing{
+    font-size: 60px;
+}
+
+.image{
+    display:flex;
+    flex-direction: column;
+    
+
+}
+
+.image img{
+    max-width: 100%;
+    
+
+}
+
+/* 
+#specialblue{} */
+
+.rightside img{
+
+    position: absolute;
+    right: 0;
+    
+}
+
+.gallery{
+    display:flex;
+    justify-content:space-around;
+}
+
+.piclink{
+    display:flex;
+   justify-content: right;
+}
+
+.donate{
+    font-size: 30px;
+}
